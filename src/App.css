@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: calc(64px * 8);
+    height: calc(64px * 8);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell img{
+    width: 48px;
+    height: 48px;
+    position: relative;
+
+}
+
+.cell {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black{
+    background-color: #CD9575;
+}
+.white{
+    background-color: #9966CC;
+}
+
+.selected{
+    background-color: #464451;
+}
+.available{
+    background-color: #A8E4A0;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+}
